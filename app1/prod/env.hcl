@@ -1,7 +1,7 @@
 locals {
   env_name        = "prod"
   location        = "westeurope"
-  subscription_id = "270ea0f5-3ed6-4fd0-854e-f0573a3ff64c"
+  subscription_id = "7603b1fd-aecc-4465-b244-f9edad1c7ed3"
 
  # Naming prefixes
   rg_prefix       = "rg"

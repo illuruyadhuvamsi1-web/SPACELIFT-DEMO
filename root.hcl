@@ -1,9 +1,9 @@
 remote_state {
   backend = "azurerm"
   config = {
-    resource_group_name  = "practice-rg"
-    storage_account_name = "mystorage3cmjz5"
-    container_name       = "blobcontainer"
+    resource_group_name  = "Microsoftfabric"
+    storage_account_name = "datalake63"
+    container_name       = "blob"
     key                  = "${path_relative_to_include()}/terraform.tfstate"
   }
   generate = {
