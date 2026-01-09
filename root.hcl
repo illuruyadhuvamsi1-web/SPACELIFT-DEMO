@@ -19,6 +19,7 @@ generate "provider" {
 provider "azurerm" {
   features {}
   subscription_id = "${local.env.locals.subscription_id}"
+  resource_provider_registrations = "none"
 }
 EOF
 }
