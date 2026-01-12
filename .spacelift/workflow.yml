@@ -1,0 +1,11 @@
+
+workflow:
+  - name: Plan
+    type: PLAN
+  - name: Approval
+    type: APPROVAL
+  - name: Apply
+    type: APPLY
+  - name: Destroy
+    type: APPLY
+    command: terragrunt run-all destroy --non-interactive
